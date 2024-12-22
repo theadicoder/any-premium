@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { Categories } from "@/components/Categories";
 import { FeaturedProducts } from "@/components/FeaturedProducts";
+import { ChatBox } from "@/components/ChatAssistant/ChatBox";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
         <Categories />
         <FeaturedProducts />
       </main>
+      <ChatBox />
     </div>
   );
 };
