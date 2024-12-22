@@ -1,7 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { Categories } from "@/components/Categories";
-import { FeaturedProducts } from "@/components/FeaturedProducts";
+import { OmegaCardsGallery } from "@/components/OmegaCardsGallery";
 import { ChatBox } from "@/components/ChatAssistant/ChatBox";
 
 const Index = () => {
@@ -11,7 +11,7 @@ const Index = () => {
       <main>
         <Hero />
         <Categories />
-        <FeaturedProducts />
+        <OmegaCardsGallery />
       </main>
       <ChatBox />
     </div>
